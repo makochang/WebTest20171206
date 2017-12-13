@@ -15,17 +15,39 @@
       margin-right:auto;
       margin-top:0px;
       background-color:#FFFFFF;
-    }    
+    }
     .main_pic{
       /*上マージン*/
       margin-top: 0px;
       /*プロパティ：値*/
+    }
+    .nav {
+      /*黒丸とか出さない*/
+      list-style: none;
+    }
+    .nav_button {
+      width: 140px;
+      text-align: center;
+      background-color: #C00;
+      /*メニューボタンを横並びにする*/
+      display: inline-block;
+    }
+    /*nav_button内にあるアンカー*/
+    .nav_button a{
+      text-decoration: none;
+      color: #FFF;
     }
   </style>
 </head>
 <body>
   <div class="main">
     <p class="main_pic"><img src="images/mainpic.png"></p>
+    <ul class="nav">
+      <li class="nav_button"><a href="http://www.google.com/">メニュー1</a></li>
+      <li class="nav_button">メニュー2</li>
+      <li class="nav_button">メニュー3</li>
+      <li class="nav_button">メニュー4</li>
+    </ul>
     <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
   </div>
 </body>
