@@ -3,8 +3,66 @@
 <head>
   <meta charset="utf-8">
   <title>INDEX</title>
+  <style type="text/css">
+    body{
+      background-color:#000000;
+      /*上マージン*/
+      margin-top: 0px;
+    }
+    .main{
+      width:640px;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:0px;
+      background-color:#FFFFFF;
+    }
+    .main_pic{
+      /*上マージン*/
+      margin-top: 0px;
+      /*プロパティ：値*/
+    }
+    .nav {
+      /*黒丸とか出さない*/
+      list-style: none;
+    }
+    .nav_button {
+      width: 140px;
+      text-align: center;
+      background-color: #C00;
+      /*メニューボタンを横並びにする*/
+      display: inline-block;
+    }
+    /*nav_button内にあるアンカー*/
+    .nav_button a{
+      text-decoration: none;
+      color: #FFF;
+    }
+  </style>
 </head>
 <body>
-  <p></p>
+  <div class="main">
+    <p class="main_pic"><img src="images/mainpic.png"></p>
+    <ul class="nav">
+      <li class="nav_button"><a href="http://www.google.com/">おしらせ</a></li>
+      <li class="nav_button">ゲーム概要</li>
+      <li class="nav_button">スペック</li>
+      <li class="nav_button">タイトル</li>
+    </ul>
+    <h2>おしらせ</h2>
+    <dl><dt>0000.00.00</dt><dd>ダミー</dd></dl>
+    <dl><dt>0000.00.00</dt><dd>ダミー</dd></dl>
+    <dl><dt>2017.12.20</dt><dd>公式サイトオープン</dd></dl>
+    <h2>ゲーム概要</h2>
+    <p>上から見下ろし、敵を撃破していくシューティングゲーム</p>
+    <h2>スペック</h2>
+    <table>
+      <tr><th>対応機種</th><td>STEM</td></tr>
+      <tr><th>価格</th><td>480円</td></tr>
+      <tr><th>発売日</th><td>2018年2月4日</td></tr>
+      <tr><th></th><td></td></tr>
+    </table>
+    <h2>タイトル</h2>
+    <p>Daphnia</p>
+  </div>
 </body>
 </html>
